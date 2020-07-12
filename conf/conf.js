@@ -114,7 +114,7 @@ exports.config = {
         screenshotsOnlyOnFailure: true,
         testPlatform: platform
       };
-      new HTMLReport().from('xmlresults.xml', testConfig);
+         new HTMLReport().from('xmlresults.xml', testConfig);
     });
   }
 
