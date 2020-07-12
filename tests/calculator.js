@@ -43,8 +43,8 @@ describe('demo calculator tests', function () {
         //let result = element(by.cssContainingText('.ng-binding', '6'))
         homepage.verifyResult('9')
 
-        // expect(result.getText()).toEqual('6');
-        browser.sleep(2000)
+         // expect(result.getText()).toEqual('6');
+         browser.sleep(2000)
 
     });
 

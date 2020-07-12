@@ -111,7 +111,7 @@ exports.config = {
         testBrowser: browserName,
         browserVersion: browserVersion,
         modifiedSuiteName: false,
-        screenshotsOnlyOnFailure: true,
+          screenshotsOnlyOnFailure: true,
         testPlatform: platform
       };
          new HTMLReport().from('xmlresults.xml', testConfig);

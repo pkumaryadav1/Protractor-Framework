@@ -18,7 +18,7 @@ let homepage = function(){
     };
 
     this.clickGo = function(){
-        gobuton.click();
+          gobuton.click();
 
     };
     this.verifyResult = function(result){
